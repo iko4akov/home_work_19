@@ -22,8 +22,8 @@ Teaching decorators
 
         return func(*args, **kwargs)
 
-    return wrapper```
+    return wrapper
+   ```
+---
 
-***
-
-https://www.codewars.com/users/Ko4ak/badges/large
+![codwars](https://www.codewars.com/users/Ko4ak/badges/large)
