@@ -25,5 +25,5 @@ Teaching decorators
     return wrapper
    ```
 ---
-
 ![codwars](https://www.codewars.com/users/Ko4ak/badges/large)
+
