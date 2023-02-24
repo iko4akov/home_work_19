@@ -19,7 +19,7 @@ class AuthsView(Resource):
 
         tokens = auth_service.generate_token(username, password)
 
-        return tokens, 201
+        return tokens, 200
 
     def put(self):
         req_json = request.json
@@ -27,4 +27,4 @@ class AuthsView(Resource):
 
         tokens = auth_service.approve_refresh_token(refresh_token)
 
-        return tokens, 201
+        return tokens, 200
